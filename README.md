@@ -29,25 +29,33 @@ This project demonstrates how to **containerize a Flask web application** using 
 
 ### ⚙️ Steps to Reproduce
 Create new directory
+
 mkdir my-flask-app
+
 cd my-flask-app
+
 Add all files i.e app.py,requirements.txt,dockerfile in my-flask-app.
 
 🐳 Push Image to AWS ECR
 
 Build Docker Image Locally
+
 docker build -t my-flask-app .
 
 Check image:
+
 docker images
 
 Run container locally:
+
 docker run -d -p 8080:8080 my-flask-app
 
 Verify container:
+
 docker ps
 
 Visit in browser or EC2 public IP:
+
 http://<your-ip>:8080
 
 # Create ECR repo (if not created yet)

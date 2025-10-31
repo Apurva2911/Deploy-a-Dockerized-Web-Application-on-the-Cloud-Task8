@@ -97,8 +97,8 @@ CMD ["python", "app.py"]
 * Visit the **Public IP or Load Balancer URL** shown in your ECS service.
 * You should see:
   
-  Hello from ECS                                                          |
----
+  Hello from ECS Fargate!                                                        |
+
 
 ### 🧹 Cleanup (to avoid extra charges)
 
